@@ -149,6 +149,7 @@ input   { outline: none; }
 .app {
   max-width: 540px;
   margin: 0 auto;
+  padding-top: max(12px, env(safe-area-inset-top));
   padding-bottom: calc(84px + var(--safe-bottom));
   min-height: 100vh;
   position: relative;
