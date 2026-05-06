@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#07080c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Training">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <title>Stats — Can I push today?</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&family=Fira+Code:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="style.css?v=14">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- ── HEADER ───────────────────────────────────────── -->
+  <header class="app-header">
+    <div>
+      <div class="greeting-text" id="greeting">Hello</div>
+      <div class="greeting-date" id="today-date">—</div>
+      <div class="sync-date" id="sync-date"></div>
+    </div>
+    <button class="mood-btn" id="mood-btn" title="How are you feeling?" aria-label="How are you feeling">😊</button>
+  </header>
+
+  <!-- ── BOTTOM TAB BAR (top on desktop) ──────────────── -->
+  <nav class="tab-bar" role="tablist">
+    <button class="tab tab-active" data-tab="overview" role="tab">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 12L12 3L21 12V21H14V14H10V21H3V12Z"/></svg>
+      <span>Today</span>
+    </button>
+    <button class="tab" data-tab="sleep" role="tab">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"/></svg>
+      <span>Sleep</span>
+    </button>
+    <button class="tab" data-tab="activities" role="tab">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M13 2L3 14H12L11 22L21 10H12L13 2Z"/></svg>
+      <span>Activity</span>
+    </button>
+    <button class="tab" data-tab="recovery" role="tab">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78Z"/></svg>
+      <span>Recovery</span>
+    </button>
+    <button class="tab" data-tab="trends" role="tab">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+      <span>Trends</span>
+    </button>
+    <button class="tab" data-tab="zones" role="tab">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="2" y="16" width="4" height="6" rx="1"/><rect x="9" y="11" width="4" height="11" rx="1"/><rect x="16" y="6" width="4" height="16" rx="1"/></svg>
+      <span>Zones</span>
+    </button>
+    <button class="tab" data-tab="weight" role="tab">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="4 7 8 12 12 9 16 14 20 11" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Weight</span>
+    </button>
+  </nav>
+
+  <main class="views">
+
+    <!-- ── OVERVIEW ──────────────────────────────────── -->
+    <section class="view" data-view="overview">
+      <!-- Readiness hero -->
+      <div class="hero" id="hero">
+        <div class="hero-primary">
+          <div class="hero-label">Daily Readiness</div>
+          <div class="score-ring">
+            <svg viewBox="0 0 200 200">
+              <circle class="score-ring-bg" cx="100" cy="100" r="86"/>
+              <circle class="score-ring-fg" id="score-ring-fg" cx="100" cy="100" r="86"
+                      stroke-dasharray="540" stroke-dashoffset="540"/>
+            </svg>
+            <div class="score-text">
+              <div class="score-num" id="score-num">—</div>
+              <div class="score-of">/ 100</div>
+            </div>
+          </div>
+          <div class="status-pill" id="status-pill">—</div>
+        </div>
+        <div class="hero-brief">
+          <div class="hero-kicker">Haily Rahmad // Training cockpit</div>
+          <div class="hero-headline" id="hero-headline">Loading readiness</div>
+          <div class="suggestion" id="suggestion">Loading...</div>
+          <div class="hero-signals" id="hero-signals"></div>
+        </div>
+      </div>
+
+      <section class="daily-movement" id="daily-movement" aria-label="Daily movement summary">
+        <!-- populated by JS -->
+      </section>
+
+      <section class="quick-view" id="quick-view" aria-label="Quick performance view">
+        <!-- populated by JS -->
+      </section>
+
+      <!-- Overview cards -->
+      <div class="cards" id="overview-cards">
+        <!-- populated by JS -->
+      </div>
+    </section>
+
+    <!-- ── SLEEP ─────────────────────────────────────── -->
+    <section class="view" data-view="sleep" hidden>
+      <div class="view-title">Sleep</div>
+
+      <div id="sleep-filters"><!-- filters: JS --></div>
+      <div id="sleep-rec"><!-- recommendation: JS --></div>
+
+      <!-- Last night summary -->
+      <div class="card full" id="sleep-summary-card">
+        <div class="card-label"><span class="dot" style="background:var(--s-deep)"></span>LAST NIGHT</div>
+        <div style="display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:4px">
+          <div class="card-value"><span id="sleep-total-h">—</span><span class="unit">h</span> <span id="sleep-total-m" style="font-size:22px">—</span><span class="unit">m</span></div>
+          <div style="font-size:12px;color:var(--text-dim)" id="sleep-times">—</div>
+        </div>
+        <div class="stage-bar" id="sleep-stage-bar"></div>
+        <div class="stage-legend" id="sleep-stage-legend"></div>
+      </div>
+
+      <div class="stats-row four">
+        <div class="stat-compact">
+          <div class="lbl">Bedtime</div>
+          <div class="v" id="sleep-bedtime">—</div>
+        </div>
+        <div class="stat-compact">
+          <div class="lbl">Wake</div>
+          <div class="v" id="sleep-waketime">—</div>
+        </div>
+        <div class="stat-compact">
+          <div class="lbl">Sleep Debt</div>
+          <div class="v" id="sleep-debt">—<span class="u">h</span></div>
+        </div>
+        <div class="stat-compact">
+          <div class="lbl">Efficiency</div>
+          <div class="v" id="sleep-eff">—<span class="u">%</span></div>
+        </div>
+      </div>
+
+      <div class="chart-card">
+        <div class="ttl">Sleep Stages <span class="badge">Hours</span></div>
+        <div class="chart-wrap"><canvas id="chart-sleep-week"></canvas></div>
+      </div>
+    </section>
+
+    <!-- ── ACTIVITIES ────────────────────────────────── -->
+    <section class="view" data-view="activities" hidden>
+      <div class="view-title">Activities</div>
+
+      <div id="act-filters"><!-- filters: JS --></div>
+      <div id="act-summary"><!-- summary chips: JS --></div>
+
+      <div class="map-wrap">
+        <div id="activity-map"></div>
+      </div>
+
+      <div class="activity-list" id="activity-list">
+        <!-- populated by JS -->
+      </div>
+    </section>
+
+    <!-- ── RECOVERY ──────────────────────────────────── -->
+    <section class="view" data-view="recovery" hidden>
+      <div class="view-title">Recovery</div>
+
+      <div class="explainer" id="recovery-explainer">—</div>
+
+      <div class="stats-row three">
+        <div class="stat-compact">
+          <div class="lbl">Resting HR</div>
+          <div class="v" id="rec-rhr">—<span class="u">bpm</span></div>
+        </div>
+        <div class="stat-compact">
+          <div class="lbl">7d Load</div>
+          <div class="v" id="rec-load">—<span class="u">km</span></div>
+        </div>
+        <div class="stat-compact">
+          <div class="lbl">Sleep 7d Avg</div>
+          <div class="v" id="rec-sleep">—<span class="u">h</span></div>
+        </div>
+      </div>
+
+      <div class="factor-list" id="factor-list">
+        <!-- populated by JS -->
+      </div>
+    </section>
+
+    <!-- ── TRENDS ────────────────────────────────────── -->
+    <section class="view" data-view="trends" hidden>
+      <div class="view-title">Trends</div>
+
+      <div id="trends-filters"><!-- JS --></div>
+
+      <div class="chart-card">
+        <div class="ttl">Weekly Distance <span class="badge">km</span></div>
+        <div class="chart-wrap"><canvas id="chart-weekly-dist"></canvas></div>
+      </div>
+
+      <div class="chart-card">
+        <div class="ttl">Pace per Run <span class="badge">min/km</span></div>
+        <div class="chart-wrap"><canvas id="chart-pace"></canvas></div>
+      </div>
+
+      <div class="chart-card">
+        <div class="ttl">Average Heart Rate <span class="badge">bpm</span></div>
+        <div class="chart-wrap"><canvas id="chart-hr"></canvas></div>
+      </div>
+
+      <div class="chart-card">
+        <div class="ttl">Sleep per Night <span class="badge">hours</span></div>
+        <div class="chart-wrap"><canvas id="chart-sleep-trend"></canvas></div>
+      </div>
+
+      <div class="stats-row">
+        <div class="stat-compact">
+          <div class="lbl">Football</div>
+          <div class="v" id="trend-soccer-count">—<span class="u">sessions</span></div>
+        </div>
+        <div class="stat-compact">
+          <div class="lbl">Avg Run Pace</div>
+          <div class="v" id="trend-avg-pace">—</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── ZONES ─────────────────────────────────────── -->
+    <section class="view" data-view="zones" hidden>
+      <div class="view-title">Heart Rate Zones</div>
+
+      <div class="zone-profile">
+        <div class="zone-profile-stat">
+          <div class="lbl">Max HR</div>
+          <div class="v" id="z-mhr">—<span class="u">bpm</span></div>
+        </div>
+        <div class="zone-profile-stat">
+          <div class="lbl">Resting HR</div>
+          <div class="v" id="z-rhr">—<span class="u">bpm</span></div>
+        </div>
+        <div class="zone-profile-stat">
+          <div class="lbl">HR Reserve</div>
+          <div class="v" id="z-hrr">—<span class="u">bpm</span></div>
+        </div>
+      </div>
+
+      <div class="card full" id="zones-list">
+        <!-- populated by JS -->
+      </div>
+
+      <div id="zones-filters"><!-- JS --></div>
+
+      <div class="chart-card">
+        <div class="ttl">Time in Zones <span class="badge">minutes from activities</span></div>
+        <div class="chart-wrap" style="height:180px"><canvas id="chart-zones"></canvas></div>
+      </div>
+    </section>
+
+    <!-- ── WEIGHT ────────────────────────────────────── -->
+    <section class="view" data-view="weight" hidden>
+      <div class="view-title">Weight</div>
+
+      <div class="card full">
+        <div class="card-label">LOG WEIGHT</div>
+        <div class="weight-entry-row">
+          <input class="weight-input" type="number" id="weight-input" placeholder="75.0" step="0.1" min="20" max="400" inputmode="decimal">
+          <span class="weight-unit-label">kg</span>
+          <input class="weight-date-input" type="date" id="weight-date">
+          <button class="weight-add-btn" id="weight-add-btn">Add</button>
+        </div>
+      </div>
+
+      <div class="stats-row three" id="weight-stats"></div>
+
+      <div class="chart-card">
+        <div class="ttl">Weight <span class="badge">kg</span></div>
+        <div class="chart-wrap"><canvas id="chart-weight"></canvas></div>
+      </div>
+
+      <div id="weight-log"></div>
+    </section>
+
+  </main>
+</div>
+
+<script src="data/activities.js"></script>
+<script src="data/sleep.js"></script>
+<script src="app.js?v=14"></script>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => navigator.serviceWorker.register('sw.js'));
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+# Secrets — never commit
+.env
+
+# Raw health exports (personal data)
+sleep.json
+*.rtf
+*.txt
+
+# macOS
+.DS_Store
+
+# Local build/deploy scratch
+.deploy/
+.claude/
+node_modules/
+
+# Local-only scripts/config
+com.haily.strava-sync.plist
+generate-icons.js

@@ -1,0 +1,490 @@
+window.ACTIVITIES_DATA = [
+  {
+    "name": "Day 1 before Lfc Trial 2027",
+    "distance": 2513.6,
+    "moving_time": 1100,
+    "elapsed_time": 1252,
+    "total_elevation_gain": 12.6,
+    "sport_type": "Run",
+    "device_name": "Strava App",
+    "start_date_local": "2026-04-07T19:55:38Z",
+    "average_speed": 2.285,
+    "max_speed": 4.26,
+    "calories": null,
+    "average_cadence": null,
+    "has_heartrate": false,
+    "average_heartrate": null,
+    "max_heartrate": null,
+    "suffer_score": 9,
+    "polyline": "q`nGg}hxRCPIB@HDDUEMPQBAQ_@_ACWUc@KKGUQw@IOKC?KEAEMAKWs@?YGKMISAM@MTBTN\\`@^F`@HPC@FHFXHH@JP\\NR?HFH^dA@LFBADP\\@HDF?FJ`@`@XF@DFz@P^L`APLH@NIZAHOZANMX@zAHh@PNDRJLNDRVNBRNLAHDDANHVCHDJ@NHBC`@?^Fb@Kx@i@\\Qb@e@@O?IJW?GHU?WJMDe@FK@AZ@A[FMPSPIBMNM|@a@`@KN?DKDAJCNFDAH@JKB@LKJCDBBDNARMXGVQPId@EXGPAFMd@k@HU@KBC?[GOI??EC?K@SKGU?UEK@EEKEFKUAIIOYIODEFY@WV_@Nk@DKAKCAIMOAHSAKFS?E@YEKEeALOMUC[K[Bc@YEMIK_@GWWAQ_@o@EAIIGCC@GC@ICGUQ?IJQf@[PUr@a@NCTSv@_@@GJIPBJGL?H@",
+    "start_latlng": [
+      1.387777,
+      103.761649
+    ],
+    "end_latlng": [
+      1.384387,
+      103.764382
+    ]
+  },
+  {
+    "name": "Day 2. Trial for LFC 2027",
+    "distance": 2479.8,
+    "moving_time": 1053,
+    "elapsed_time": 1169,
+    "total_elevation_gain": 125,
+    "sport_type": "Run",
+    "device_name": "Strava App",
+    "start_date_local": "2026-04-08T20:00:11Z",
+    "average_speed": 2.355,
+    "max_speed": 8.09,
+    "calories": null,
+    "average_cadence": null,
+    "has_heartrate": false,
+    "average_heartrate": null,
+    "max_heartrate": null,
+    "suffer_score": 11,
+    "polyline": "g`nGq|hxRAABFCJOBm@CAAC@CCIWEEBDR]UHGCEGOi@_@s@Ea@EEAW[a@CO@Ic@m@@YEUEEOEY?OV?ZHHLDFFVb@DNAB@PBLDFJh@B@Zf@JZDDb@lAF^DFXr@LLDPRNx@VZBLDN?LFd@JHDDVEVELAHOZK^Gt@N~@JF@VFLhAx@L?HBHHVCHDb@F?BD@ZHX?r@CXQPCJGXMv@}@@MCYBMLU@OL]DIFC?MFKXE@c@PSRGJICKBGRIHKZKnAYTOPALIPAJGb@Ep@SdAOPIHA?WJQLMFO?UAG@QCEAUOQ?OGIK_@?GKSQKQEa@F]H]XOBW?CDi@Bc@MQB]Ms@JWCWIACWC]MG?WKC?a@WGCWUSGMKIOGGOYQMIMEAKKKEIKJO@ID?ROX]n@Wb@WLSRELGLK\\OHIP?\\HNZ",
+    "start_latlng": [
+      1.387728,
+      103.761534
+    ],
+    "end_latlng": [
+      1.384265,
+      103.764203
+    ]
+  },
+  {
+    "name": "Day 3. LFC Trial 2027.",
+    "distance": 2553.6,
+    "moving_time": 1097,
+    "elapsed_time": 1334,
+    "total_elevation_gain": 118.3,
+    "sport_type": "Run",
+    "device_name": "Strava App",
+    "start_date_local": "2026-04-09T08:25:54Z",
+    "average_speed": 2.328,
+    "max_speed": 3.9,
+    "calories": null,
+    "average_cadence": null,
+    "has_heartrate": false,
+    "average_heartrate": null,
+    "max_heartrate": null,
+    "suffer_score": null,
+    "polyline": "kbnGs{hxRC@GKAOGSOSIUAOCAQ]Qc@Ms@]m@Ka@OUGUBMAOQQMCK?KDEDGJ?^\\XP`@@N\\z@HZ~@tBNn@AHN`@?FB?BBJTLP@DZVF?PLB??CH?p@XN@`@LXDNFBHE`@c@tAGf@Bl@LNHd@FRPN~@h@`@Hd@FLFL?TFt@BVAz@Y`@Wf@c@JSFa@@SZy@Lo@BGDAP?DYAEA?TYLEDGDObAe@v@SRAFEf@QJARKVCZMX@HEdAYDE?EJWPIN]BM?OBUCWa@cAMm@IIKAUBWJGF_@HKH[FED_@EO@KGGAI@AFGBWIK@QG]@a@AKBIC[GUO{@_@IKYECGGCMOSGMASWOKE?IGQSGYc@QQEKDSTm@N_@Xk@TEDKXE@MAEBWTIRUDQPUJKH]RQF_@XaAh@GH@DP\\FXFP",
+    "start_latlng": [
+      1.388067,
+      103.761382
+    ],
+    "end_latlng": [
+      1.388131,
+      103.761427
+    ]
+  },
+  {
+    "name": "Match Day with local club Maggie G FC",
+    "distance": 3587.7,
+    "moving_time": 3623,
+    "elapsed_time": 5920,
+    "total_elevation_gain": 81.1,
+    "sport_type": "Soccer",
+    "device_name": "Apple Watch Series 6",
+    "start_date_local": "2026-04-09T21:30:20Z",
+    "average_speed": 0.99,
+    "max_speed": 6.2,
+    "calories": null,
+    "average_cadence": null,
+    "has_heartrate": true,
+    "average_heartrate": 173.8,
+    "max_heartrate": 199,
+    "suffer_score": 199,
+    "polyline": "ws}F}prxRQCCBEWAODEACD?JOFFJDBD?BBAGH@KFADBL@?@EDCEB@ELCCDMACNFGFCC@A?@IC@EABMBIE?EBATFI??HM@EE@CR?BEG?IFAA?CJ?GJ@GT?AACHC@GKB??BFCKEIL@SJ?FHEH?K?BACLCLD@BIDAAE@@CFA?@Q@EAG@EAL?BB?ELMAFBC?HBFCAC?AHC@AHt@M?@EBIACKC@?DI@KIWHAEGE@EB?DBBA?BB?DCHFD??HF?LK@BB??GKHQFFCJ@?DDBGDGYAAADIBDEVM?FEFO@@EF@IFE@M?CCJKP?AFQBICCIAFAAPIBDDA@B?HODAAFGJDDEB?@@QDWAAICCD@FAFQC??DDVHGDOAAC@MP?DMBBG@KFBGFADBCJ@DAMJAGJECHICGE@IACDEFBFNC@CEDDMDAADGB@DD?DQ?EGBCFANB@HKAIUGEC??BB@@DNADC@HC@LCLBFDGDG@GCKHACBAJDR@?BBAEAEUEABOL?FHAFOB@?AFNF?CFYLIDBGFKBCD]HKCAIKKQAAIKBCBA?FEABECC@AFFGLGFJFB@DPD@JHANINCLHCFQJCAIGI@?CCG@Ca@PEGA?HKJ?NE@BIH@IKFI?CENMP@NBPJ@BEHKDGAISIHG?IG?E?CN@C@AMGHGAGG?KIBCA?CFC@B?DDCj@DHBFNAFEDAACFGBBIAGDGDABHH@?B@A?AABC?MIKAMJC?AEFELEG@[II@GEA??BAGDG?JFAEFEE?DHE?EIH?@A?JQCF@CCCC@@GAB@@C@AGFJ@LC@@IB@AB?E?BCA?GCABCAABFILJSDCHLBPPBDCTJUAKKf@@EAWDEIGAACJAJBRRHADDC@DIy@??AJ?LHH@\\EF?@DAFGFMBGAGQLGJADDCDMCGBBM@@AFBA?@CFW@OG@MBA@BLIH?BDCBS@YACCAEJ?HF@GCBK@AICLFLB?F?BKFGDB?BADEC@CEHSICI?D@CDBCFE?B@HAHF?BGBGISGFCJHX?GIYDEAAKLID?JJPBIJAFB@G?GIKE?CJ?IICHGBE@^CCA?AJ@ABC??C@EB?@DCDCCDMKGQPPNN@EACQDB^@ADa@HQIAK@E@?E@AC@BVBABKBB@?CABCCB@AH@C@D@E?DC?CC?EK?IG",
+    "start_latlng": [
+      1.303804,
+      103.810873
+    ],
+    "end_latlng": [
+      1.303795,
+      103.811044
+    ]
+  },
+  {
+    "name": "Day 4. LFC trial 2027",
+    "distance": 2106.5,
+    "moving_time": 912,
+    "elapsed_time": 1067,
+    "total_elevation_gain": 21.1,
+    "sport_type": "Run",
+    "device_name": "Strava App",
+    "start_date_local": "2026-04-12T16:11:43Z",
+    "average_speed": 2.31,
+    "max_speed": 7.2,
+    "calories": null,
+    "average_cadence": null,
+    "has_heartrate": false,
+    "average_heartrate": null,
+    "max_heartrate": null,
+    "suffer_score": 7,
+    "polyline": "oanGc|hxRU@CJGJRZBP\\X?LDJ@PHFz@NNHd@HNL?FGT@HQb@S|@At@R`AEJBF^N^VHLXJx@Jl@Nf@Fb@EF@N?`@KPMZK^c@JGLOFc@JSGI\\_AHe@LEHAFUEEBGFCJQPEBE?IBE^Uh@Qd@KTIJAHGZGJGJCV@f@Q`ASd@QLCBCAMFOHAFCTYPm@AGEGKEOGM@KEK?HA@E@g@Ew@[UM?KJi@L]N[FMCUHOAWGO@GE[BYIO?[Dk@GOAk@QEGGASKKAQGCEQGUUWKMOAGWCEYi@o@YMOCIDICG@MLCH]RqAj@GFIVO?]PEF?JGHQBIJ]NEFI?EHKFOFUP{@b@a@XAF@FL\\FHBLJPVEH?HG?EJCBG",
+    "start_latlng": [
+      1.387921,
+      103.761466
+    ],
+    "end_latlng": [
+      1.387811,
+      103.761551
+    ]
+  },
+  {
+    "name": "Day 5. Lfc trial 2027",
+    "distance": 2416.1,
+    "moving_time": 1021,
+    "elapsed_time": 1146,
+    "total_elevation_gain": 10.6,
+    "sport_type": "Run",
+    "device_name": "Strava App",
+    "start_date_local": "2026-04-13T19:38:19Z",
+    "average_speed": 2.366,
+    "max_speed": 4.36,
+    "calories": null,
+    "average_cadence": null,
+    "has_heartrate": false,
+    "average_heartrate": null,
+    "max_heartrate": null,
+    "suffer_score": 18,
+    "polyline": "g`nGy|hxRI@BF?DI@ELE@]?[YUo@?SQQOg@MSG]CUISMMIQCSOYGU@MAKGKICQCM@EBMPALBNRRFRRd@DDFTNPPb@F^LXFXZd@F\\ANFP?PBJTNR`@RJnAb@`B^LH@FAd@KXW~@En@Bd@DHLj@HL\\XHB\\ZLFRDXA\\H\\BRF\\BN?LCNAz@Wh@[HMPMHM@]DKBQFKLu@FMFWHEJAFE@]RYPGBMBGn@]x@U^GTQRAb@U`@CHE\\CTKPE^C\\KBGFYD?FCDKHGHKJk@G_@KCQMC?KQHU?O@?EICKOOOCKGSAEJE?QFMPI?OF[F[@YCMBUAOBm@Qi@?]EGES?KEM?a@MEEM@EGSKC?CGm@c@QKKACOMQSQ[_@[QEI@ILMDIPIPUVIRSb@Qf@c@NAPMPGVQB?BDN?PB",
+    "start_latlng": [
+      1.387724,
+      103.761574
+    ],
+    "end_latlng": [
+      1.384372,
+      103.764349
+    ]
+  },
+  {
+    "name": "Day 6. Lfc trial 2026",
+    "distance": 2625.3,
+    "moving_time": 1148,
+    "elapsed_time": 1154,
+    "total_elevation_gain": 13.5,
+    "sport_type": "Run",
+    "device_name": "Strava App",
+    "start_date_local": "2026-04-14T20:07:01Z",
+    "average_speed": 2.287,
+    "max_speed": 5.94,
+    "calories": null,
+    "average_cadence": null,
+    "has_heartrate": false,
+    "average_heartrate": null,
+    "max_heartrate": null,
+    "suffer_score": 20,
+    "polyline": "}`nG_~hxRTz@EAEROAWLa@k@[cAIMI]IKIQ?ICEIe@KKQi@Q[?GKQ@WCQOQUAWFILB\\DFNJV\\DND?BXDFBPDF?FT`@N^FX\\t@Jb@?PPT@JHHJZJRDBBHVLZHLFb@LN@t@TP@JF@TKTAROVK\\Gb@APDN?XHf@TN@NPP~@l@p@JP?h@Ph@Dt@CF@XSLAb@SRWVOLQGQJ[AIBOFE?KHUJKFa@DETEBEFa@LURMDMFEPGNMz@WXGVKN@PE\\SHAF?JJTQZIJIf@ITINADGH_@TKLS@ECABG@S?a@CGE]EEa@gAOOK@EHIFEAg@FWHm@Bk@HSAUDOIU?UGa@?GDUACCECw@QSIOACCCMSEuAm@CGQMEOGEMSMGGMSIOKKGO?MBKLK?KRm@Js@ZO\\KFOBAFMBORAFCDi@RIH[RM@UHWVmAp@GH?FRb@L^",
+    "start_latlng": [
+      1.387833,
+      103.761764
+    ],
+    "end_latlng": [
+      1.388093,
+      103.761463
+    ]
+  },
+  {
+    "name": "Day 7. Sponsored jog. Powered by Garmin",
+    "distance": 2524,
+    "moving_time": 1343,
+    "elapsed_time": 1362,
+    "total_elevation_gain": 11,
+    "sport_type": "Run",
+    "device_name": "Garmin Forerunner 165",
+    "start_date_local": "2026-04-15T20:57:25Z",
+    "average_speed": 1.879,
+    "max_speed": 3.1,
+    "calories": null,
+    "average_cadence": 84.3,
+    "has_heartrate": true,
+    "average_heartrate": 132,
+    "max_heartrate": 149,
+    "suffer_score": 12,
+    "polyline": "u`nGs|hxRIAARIB[BMBKIWi@GYCQe@cAEg@IWy@_BCM@SAIIKUMG?OFGL?XHLPJLLVp@JLv@nCXl@Jr@^p@L\\JJl@Zp@T\\DbATHH@VKj@_@dAEX@b@Jb@L\\X\\h@d@h@Tf@Dv@Nx@BlASd@]\\_@NYBi@F[Vg@Pm@BETGB[XYJEFUNQJI\\MZEb@K\\SR?LAPG^Cn@SfAOZKRk@JODO?KGS?o@G[Sm@Ik@EGq@Le@XSFqAHQFU?QEWQKCIBMHGB}@Aw@UKG[[KGWEQGMMg@Y[[c@i@a@UOEQCKFUBMFUVYNi@NKZSBSLKJGLQFe@\\a@Nc@Tq@h@m@ZENLVDXFP",
+    "start_latlng": [
+      1.387798,
+      103.761549
+    ],
+    "end_latlng": [
+      1.388176,
+      103.761452
+    ]
+  },
+  {
+    "name": "Friendly",
+    "distance": 4312.2,
+    "moving_time": 4091,
+    "elapsed_time": 7596,
+    "total_elevation_gain": 4,
+    "sport_type": "Soccer",
+    "device_name": "Garmin Forerunner 165",
+    "start_date_local": "2026-04-16T21:08:05Z",
+    "average_speed": 1.054,
+    "max_speed": 5.36,
+    "calories": null,
+    "average_cadence": 59.2,
+    "has_heartrate": true,
+    "average_heartrate": 163.9,
+    "max_heartrate": 200,
+    "suffer_score": 173,
+    "polyline": "yr}FirrxRYK?EIBGJ?E?DNORN@?DGHHNBADD@@EABACBA@FEGB?CBBB@ACIDCBBB?E?BH_@CCPJPD?MGCIOQCDI@ACLHAGIMCOKPAAHMD?JXD?K?\\@NHLA?Ca@H@HB[AMC?BNDHDCEBH?CCCDJ@IGOD?MG@LJADJMBTDA@CYEIKGAADJGJB@EBDZCBFUDWACEDGCBYK?KDD?CM@@HI??CCDACHDGID@JKt@X@HEBCEF?IFB@CBFMCAEA?H@ACBU?DIJAEG@GMNb@CDLABFAK@LGB@O@?EKBAG@?E@D?ACB@QEQ@DDRC@BHG?DO@NFVD@OC@PNIF@DBCIF[QM?NGP@I?HCUAACFCNHFEBFGFA??EEGBECFQHCGb@@CALLIMGDQMQ@GD@BAEE@CADEb@J@GEHHBSCBCCDFCFGMMKTGA\\EBFH?JGO@?EMGE@?HQCGB?D?IB?FMINFGNJDEGC@APDk@M?GOAEEKNBCABBAG?BC?D^Hc@Q@F?EBDDACCG@B@@EHA@I^^EBL@I?@CL?@HAIJ?@DC@?DD@EUC?@L@GGH?DXNGUQ?IEJBACR@@BE@AHCEG@@MC?EJBSTJEF@AK?GKB?FBI?CORAIGERDNGC?KKEOB?BB@RMAAU@@DHBl@?IBILUGQ?HGADh@@NH?GKCCDBB@CEGF?AKM?WDXDTNBGEGB@?L?QCAODKCN?@BNEDBaA@GC?II@PHC@?Dd@BFEH@g@EAKn@JJHCCF@?Be@UHCGTBDF?LGMCFEKAUDKJDO@FGGLC@DSEBIBFH@CA?BH@NMOPK@GC@IJQB@HZPHCFOOQCi@g@KF@J@CEEBE@HGAFA@BI?L@ICFBGAHEGABHGE?EHH?LCA?GGGBBACLI?DNL?JC@?CRBAFGMOG@JIHDHNARIECB@UFQMFDGF@EN?CA?DCEOHNABKZBKEJ@AEFHG?D@AC@BG?@BPB?Cg@]E@AHRB?JD?GCDCFBGCFEMEAEGNHAPDEAGFCEAJKGDEB@@@CBEMI?FPF@ADCG\\KRPPJH?QU@CGMEA@VPAHDI??DFKCC[BSECDD@JULJCFEE?FUSE?EHAG@AJHBAAIEREIC@L@?KGCBHL@GDHLCOOB?GHA@ENJ?LEIJ?JFCDCABGIISDHIC@@GPJN@JDSCMFYMO?EIVFK?ENFBJK@BBM\\HECAB@@B?]IWBGMEUEAEHBD",
+    "start_latlng": [
+      1.303658,
+      103.811096
+    ],
+    "end_latlng": [
+      1.303814,
+      103.811115
+    ]
+  },
+  {
+    "name": "Day 8. Recovering from sick. Sick of work.",
+    "distance": 2407.7,
+    "moving_time": 1108,
+    "elapsed_time": 1137,
+    "total_elevation_gain": 8,
+    "sport_type": "Run",
+    "device_name": "Garmin Forerunner 165",
+    "start_date_local": "2026-04-22T19:35:18Z",
+    "average_speed": 2.173,
+    "max_speed": 5.125,
+    "calories": null,
+    "average_cadence": 85.1,
+    "has_heartrate": true,
+    "average_heartrate": 149.1,
+    "max_heartrate": 182,
+    "suffer_score": 29,
+    "polyline": "kdnGmzhxRf@OCCDII_@AQQc@CMBKQSYg@Ik@OWEOOSAKGKQo@B_@CIGIGCSCGBSP@THLVTBJLFPZNd@@RL`@Lr@Rf@Vd@DV@VJZZj@PV\\RbAPv@Tf@FLDCf@G`@Sp@Il@@^Hn@FPZ`@VVf@ZXBRAJ@RDn@Vb@Fx@KdAm@f@o@HWCy@Ik@?]FOJIPEN?PGJSVQVIHSn@e@p@Mn@Yv@Mh@Sb@Uh@InAWJQ@MHOPm@DQ?[CIe@]O[CS[YW@q@b@c@LiACc@Fk@Gq@HACk@A]E{@U]SKCYOu@w@[g@_Ay@?MJWEDCCBCB@@DEA?EB@@Af@]JOh@[^Yl@YLMn@]NDRAHEBB",
+    "start_latlng": [
+      1.388382,
+      103.761194
+    ],
+    "end_latlng": [
+      1.384415,
+      103.764412
+    ]
+  },
+  {
+    "name": "Day 9. Warm up run. Might delete later.",
+    "distance": 2505.1,
+    "moving_time": 1225,
+    "elapsed_time": 1228,
+    "total_elevation_gain": 13,
+    "sport_type": "Run",
+    "device_name": "Garmin Forerunner 165",
+    "start_date_local": "2026-04-23T09:38:30Z",
+    "average_speed": 2.045,
+    "max_speed": 4.3,
+    "calories": null,
+    "average_cadence": 85.9,
+    "has_heartrate": true,
+    "average_heartrate": 150.4,
+    "max_heartrate": 182,
+    "suffer_score": 7,
+    "polyline": "obnGw{hxRF?IBGEc@cAG]c@_AGSAYKYYc@Yq@ES?QEOQOECG?IDIJCR@LBF^Vd@hAXnAp@hATd@DP?\\Zr@@THNLLZLb@Fr@Tr@HZJDF@FAPGl@[lAE^Jv@Rf@PXj@b@TLv@HPHb@Jf@B|@E`@SFI`@Uj@k@FKLc@HwAHYJGXCDKAKBKb@a@DOPMPQt@WdAWJI\\OXGd@OnBWRY\\]Le@GW?]S[K[CS@WGGKGOEI@o@LUROD_CZM?g@UMC_ABg@EuA[_@Sy@y@e@SUYMUg@_@IHODa@AK@OF[\\O?[HI\\UHYPQZ]Lm@d@{@`@WPOF[XIP@JHd@N^HA",
+    "start_latlng": [
+      1.38808,
+      103.7614
+    ],
+    "end_latlng": [
+      1.388059,
+      103.761371
+    ]
+  },
+  {
+    "name": "Training with another local club. Geylang Fc.",
+    "distance": 4063.6,
+    "moving_time": 4471,
+    "elapsed_time": 5300,
+    "total_elevation_gain": 7,
+    "sport_type": "Soccer",
+    "device_name": "Garmin Forerunner 165",
+    "start_date_local": "2026-04-27T22:04:08Z",
+    "average_speed": 0.909,
+    "max_speed": 3.5,
+    "calories": null,
+    "average_cadence": 58.3,
+    "has_heartrate": true,
+    "average_heartrate": 177.3,
+    "max_heartrate": 203,
+    "suffer_score": 122,
+    "polyline": "mu_Gye`yRHJODFCECLG@@IBB@HCODJEJBCHEKI?SJ?E\\F@CWDCATEIRIGFCBFECHKGKFDRIKL?NLEEDKIOCBEBNJLCWKKGVPAFE?IAHEAFABB@AQBIGFBBGCFQAJ?BJBCGBLBEGNJBA?KGESFBDCGJCDKLP@LD@Q[MBFEEMBJE@EK@BGDDN?GIDFB@CE?HI?GAADLC?PCH@E?AGE?@G?L?EFBMB?EF@IWFPADFCK?JGBHDRCNE?MQC@JGFFE?EFAIEBDBNIGJKG@GAHG@@IBCADJDAKH@HHE@AECJ?CIK?DFCC?BI@BEA?FEJOATM@OKDDNH@?EIA@LB??GEBHGCFC?@BWANE?GE@F@HG@HGD@BCAFE@DICFC@FIHGGHKDFFECLM@?GFGCLHBUC?CRSCA?DD?EB?LCOGJBBFEADDEIHCAFA?BMIHCBBAEHB@M_@J@KTIBFS?SFHBNCBDM?R@CBDE@HEWDHKJLQI@DFAF?E?BG@HIBDAMEJCIKB@DIE?BP?DCGOBRBGGAF@QCODPGPHE?BIG?@PFIAGALDAUCKFLIX@DJI]QBHFJA?EAHKFGADAACM?HCBFEE@IC@CTDIKAJ@GMILJ@DGIGB?C@@CBJD@GHCACIHBBJIEDHXHc@ODCAP@GHEB@CBTEGCOJ@MD?B@GDEA@CC@D??HB?@IGB?ES?DLBIVDFIACMLKA?EIFNAM@LCAKMGFNHDVCS@EE?BJAADPFIEODBO@?IAOJ?LRSK?FCBHAIJAW?FDFA@IEVEOGGb@HADD?_@@IIJ?EHHAGCALBAI@HMVIDBIBIGFGB@MTIGGLRIGCKRBGXIUCCGEV@KE?H@?C?FCFCADEAI@LFABMGACDH@@GB?I@AKAP@K@BIRBGCA?DBEHDIALKXEEFBAEEAKDFYPDD@OE@AFNAG?ELHBDMGMMC@LDBBG\\H?ISMG@@RBAAIG@@QCAOb@BF?EF?E?DGECFBLIABB?ECGBHKCCBXGUBLEDDYEJFPTFKQ@F@KBHK??FOERG?LG?BELAME?GCDDADFG??FAEFIMXEA@EDKJ@AIDJCEGPCABMCEWJd@IID?FJK?FQ?BDISHBFCJNO@AIECHODLEAFDEDEAL?GGGF@BACBEEB?ELFD??KEDK?ID@H?ITICFCEE@@G@FJDBEO@JIGAEFJBG?HJAM@BIHS?RO?FDHE?EMHFMKBIFCANc@IBCRJDKANG?DBE@DMBDICQBX@OCPEO?IHHEBFUKFBEBDDZMFHG@RFCO",
+    "start_latlng": [
+      1.31431,
+      103.880772
+    ],
+    "end_latlng": [
+      1.314169,
+      103.88066
+    ]
+  },
+  {
+    "name": "Day 10. Ran with wife.",
+    "distance": 4001.5,
+    "moving_time": 2529,
+    "elapsed_time": 2633,
+    "total_elevation_gain": 7,
+    "sport_type": "Run",
+    "device_name": "Garmin Forerunner 165",
+    "start_date_local": "2026-04-28T20:46:17Z",
+    "average_speed": 1.582,
+    "max_speed": 3.06,
+    "calories": null,
+    "average_cadence": 76.5,
+    "has_heartrate": true,
+    "average_heartrate": 125.6,
+    "max_heartrate": 148,
+    "suffer_score": 7,
+    "polyline": "mnlGgrbyRBMCYBUC_@AmADyBAUF{ALs@V{@Pa@@MV{@Pa@Po@?G_@_@BCAA@BACABACAc@JOF@^LVA\\FF?Ty@GKKESKCIYcEHo@Ng@Be@AOMe@MUE[Cg@c@q@CWE{@Iu@@i@[yBKcBOiAAa@Ge@?UIq@A_@CWEKGG@EEA@AIU?EHQDWI[CGGCy@Zq@LEEo@?AIQMcAQyB?eBEsA@kBSk@Os@UkAo@iAy@e@k@a@]_@e@V^\\ZVNbA|@|@l@\\R|@XNJNDz@LpAHp@AdABl@?JAR@HAfA@z@JPDVPNRVCN@NCVOVIRITEB@Ld@Bp@@BZ?YVFD@f@VlC@t@DJHzAJ~@?RHZ@f@LjAA^F`@Bd@FRX`@FZ?VDTXl@Fj@?VIb@MZCZNpCHz@FHXNDJQt@EFc@Ec@AKCMIKF@?AA@l@\\\\DLKj@[l@GPCVIPCPM^AJUj@Kh@Cx@Gf@BXATDZ?ZD`@AV@P@xAEb@BJ",
+    "start_latlng": [
+      1.379752,
+      103.893004
+    ],
+    "end_latlng": [
+      1.379666,
+      103.892985
+    ]
+  },
+  {
+    "name": "Run 10. #stravaArt ‘Jin Pakai Toncet’",
+    "distance": 2203.6,
+    "moving_time": 1086,
+    "elapsed_time": 1098,
+    "total_elevation_gain": 4,
+    "sport_type": "Run",
+    "device_name": "Garmin Forerunner 165",
+    "start_date_local": "2026-04-30T10:20:36Z",
+    "average_speed": 2.029,
+    "max_speed": 3.56,
+    "calories": null,
+    "average_cadence": 85.1,
+    "has_heartrate": true,
+    "average_heartrate": 141.8,
+    "max_heartrate": 163,
+    "suffer_score": 4,
+    "polyline": "g`nG_}hxREEDKROJOGq@EKBSJMPOZORGHI?EM]SOe@q@[SW[k@_@IIGQOMSMWIBCd@JdAv@`@r@nAlAJPHPVTXl@Vt@H~@Cp@[jCGJGBQBIAMCYOQC]O_AOMGU]m@kBCQIFUDKRIHWPa@NaAJKCGQ?GBCAQJIHFH^KBKMKCK]BINIn@G`@WtA[HCHIFM@KAa@EO?QBAVIFDVB\\\\H@PGHK\\s@JCJBPEL@JPDRVZh@jABJHdACZK~@Cr@G^ELKL?RWRG?[Es@So@Ks@[s@cAEg@GMEYOUDK\\MZYZOb@a@^KPFJHBH?FCHAd@CHMJ",
+    "start_latlng": [
+      1.387728,
+      103.761608
+    ],
+    "end_latlng": [
+      1.387645,
+      103.761739
+    ]
+  },
+  {
+    "name": "Run 11. Tonight Game Postponed due to Bad Weather.",
+    "distance": 2413.5,
+    "moving_time": 1070,
+    "elapsed_time": 1133,
+    "total_elevation_gain": 7,
+    "sport_type": "Run",
+    "device_name": "Garmin Forerunner 165",
+    "start_date_local": "2026-04-30T20:19:46Z",
+    "average_speed": 2.256,
+    "max_speed": 5.5,
+    "calories": null,
+    "average_cadence": 84.8,
+    "has_heartrate": true,
+    "average_heartrate": 152.6,
+    "max_heartrate": 164,
+    "suffer_score": 6,
+    "polyline": "gdnGsaixR@f@A^CF[UKU@S_@k@?BWg@CO[w@Am@CIQKODIRAPDDJ@HDVVTr@BVHX`@p@\\`ALTF\\HRFHDCDPA\\RVNXNPt@\\n@JTHVDVHFF@JCVOl@AVSp@?`@Np@BZFPz@t@\\PvAFj@J^?r@CTENKB?\\W`@m@HkAX}ADIHC^CDI?IDKRSNKDSDGf@YXI\\Gn@Wl@?^Sn@U^K\\?d@IDCVk@F?NKAUGSCu@Oq@ISC_@GSICS@QHMLYJU@MDa@Bs@RQDSASEWOK?WDe@KeAESKs@U{@e@GIQMSg@UWWUQIEI?MJQFADM^UZYtAo@~AgAVYJg@Bi@IaASaA",
+    "start_latlng": [
+      1.388365,
+      103.762348
+    ],
+    "end_latlng": [
+      1.384558,
+      103.76564
+    ]
+  },
+  {
+    "name": "Run 13. Pre Run Lfc v Mutd",
+    "distance": 5026.1,
+    "moving_time": 2597,
+    "elapsed_time": 2688,
+    "total_elevation_gain": 28,
+    "sport_type": "Run",
+    "device_name": "Garmin Forerunner 165",
+    "start_date_local": "2026-05-03T19:54:38Z",
+    "average_speed": 1.935,
+    "max_speed": 4.14,
+    "calories": null,
+    "average_cadence": 84.5,
+    "has_heartrate": true,
+    "average_heartrate": 140.9,
+    "max_heartrate": 159,
+    "suffer_score": 9,
+    "polyline": "y_nGy|hxREEEM?a@VaACEWIAE|@e@ROHENA@GS_@SU[e@_@W_@_@m@a@MSGUe@WCIDOCOFg@Bu@f@_@v@gAHWA[EOMQMOm@]MO_@YIOk@q@[i@Ss@UOK?EG?GDGDAT?FE@g@E_@@QFYJWZm@LODQ@SEQk@Wu@e@c@e@KOIUCW@g@Es@@MMm@BIFE@UT]Jm@XURGd@Up@aAV_ANWZYHSPk@HQZYT_@NMTGbAMRBZLd@JtAn@\\DA??BZRPFDCFST[JYNQh@g@j@[|@WZ?REp@Cl@QhAAp@E`@?J@X?`@FP?VFZ@v@LJDn@DjATXJp@JRRTKPDJDHLFBRCl@Dh@@PDTC\\?j@Kv@Ap@Eb@?~@DxATj@Tl@\\NLLR?\\ETSZIXyAvCM\\OPGTKP@BIRWJQR]n@Kb@QXGV_@l@c@fA_@p@a@f@MZKLq@nAUZMZW^W~@Yh@IT[p@CJQf@A`@EL@JCL@BIjASn@@\\@PHTBl@J`@@ZTv@HPALFDNDLXARGH[LWFUPs@P]Tk@HcAf@OBG?KDc@B]Ji@^k@J_@@Y?c@Fc@CMKUEO?OFo@?a@EOGQCOQOKME]Us@[u@aAs@m@ICE@EFQDCDBH`@h@DJDBHELMHE@E]m@OIE??FJ~@?LBBf@c@IE]Ik@IWSO?SH{@h@WTKXm@RGDETKB]RqAt@KJm@ZGHYJEH?JPh@",
+    "start_latlng": [
+      1.387658,
+      103.761576
+    ],
+    "end_latlng": [
+      1.388224,
+      103.761554
+    ]
+  },
+  {
+    "name": "Run 14. Good news below.",
+    "distance": 2603.8,
+    "moving_time": 1187,
+    "elapsed_time": 1200,
+    "total_elevation_gain": 9,
+    "sport_type": "Run",
+    "device_name": "Garmin Forerunner 165",
+    "start_date_local": "2026-05-04T21:11:25Z",
+    "average_speed": 2.194,
+    "max_speed": 6.9,
+    "calories": null,
+    "average_cadence": 86,
+    "has_heartrate": true,
+    "average_heartrate": 149.1,
+    "max_heartrate": 163,
+    "suffer_score": 5,
+    "polyline": "y_nGi}hxRIBMPM^GJG?EBGGUAKI_@o@GY?QIMGUKQS_Ai@w@AMSk@?_@CSSSQ@OFKVAFDN\\TFJNh@l@fBVf@FP\\t@FPB`@f@nAJJ`@TdCj@b@L@DGp@a@pAE`@Hn@Nn@P^BDl@b@`@Nz@HZLn@B\\Cd@?VGXMv@m@NYF}@f@eBNINCFE?[AEPQXMDQ`@UrBm@RM\\M^CNG|AUVANCBEFQJMHQDOLU@KGg@Um@SgAOMOA]Hi@ZaANS@KAODg@?o@Ka@Bo@EOB]A]KSOUKeAu@c@e@QMQ[MOQGSUIGe@Ta@DUTaA\\EDG\\MDCC[XKRI@[LcC|Ak@f@I@AF\\bAH@JK",
+    "start_latlng": [
+      1.387652,
+      103.761657
+    ],
+    "end_latlng": [
+      1.388037,
+      103.761487
+    ]
+  },
+  {
+    "name": "Run 15. Morning Run. Easy. Everyday easy run.",
+    "distance": 2554.2,
+    "moving_time": 1245,
+    "elapsed_time": 1261,
+    "total_elevation_gain": 10,
+    "sport_type": "Run",
+    "device_name": "Garmin Forerunner 165",
+    "start_date_local": "2026-05-06T08:37:08Z",
+    "average_speed": 2.052,
+    "max_speed": 4.82,
+    "calories": null,
+    "average_cadence": 86.7,
+    "has_heartrate": true,
+    "average_heartrate": 143.5,
+    "max_heartrate": 160,
+    "suffer_score": 4,
+    "polyline": "{`nGe|hxRGDe@JKEGISq@E][m@KOGOCe@CMSWk@mAEOBQASMMQEUFIJCD@\\FHXLFNHFh@bBJf@^v@JXT^Tr@Vd@Fd@RRNHbAVzATJF@PC\\c@vAEx@BPX`@^z@HLZVz@N|@\\j@Bl@AVG^ULK\\Qh@g@Ry@Fe@T}@FGRGDKAM@GRUNIFUFKPKVKp@Mh@UR@l@I`A_@jBY\\_@J_@X_@D_@AUEMe@y@CQ?SCGUKQAUBWNQDIFc@Nk@Ds@JQAw@Wg@BEEG?UGOBSCc@ISSi@[aAY[Sc@c@a@i@]Y[NQ@IDGAE@u@h@c@LI\\IBK?YNIXCBMDg@^iAh@yAbAALLVBRLXH@",
+    "start_latlng": [
+      1.38782,
+      103.761477
+    ],
+    "end_latlng": [
+      1.388032,
+      103.761402
+    ]
+  }
+];
+window.ACTIVITIES_LAST_SYNC = "2026-05-06T14:27:36.857Z";
+window.LAST_SYNC = "2026-05-06T14:27:36.857Z";
