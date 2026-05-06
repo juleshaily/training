@@ -2,7 +2,7 @@
   "name": "Haily Training Cockpit",
   "short_name": "Training",
   "description": "Personal athlete dashboard — readiness, sleep, activities.",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#07080c",
   "theme_color": "#07080c",

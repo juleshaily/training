@@ -1,14 +1,14 @@
 const CACHE = 'training-v14';
 const STATIC = [
-  '/',
-  '/index.html',
-  '/app.js',
-  '/style.css',
-  '/manifest.json',
-  '/icon-192.png',
-  '/icon-512.png',
-  '/data/activities.js',
-  '/data/sleep.js',
+  './',
+  './index.html',
+  './app.js',
+  './style.css',
+  './manifest.json',
+  './icon-192.png',
+  './icon-512.png',
+  './data/activities.js',
+  './data/sleep.js',
 ];
 
 self.addEventListener('install', e => {
