@@ -198,8 +198,30 @@ window.SLEEP_DATA = {
           "deep_min": 106,
           "rem_min": 85
         }
+      },
+      {
+        "bed_start": "2026-05-05T16:00:20.000Z",
+        "bed_end": "2026-05-05T23:31:18.000Z",
+        "date": "2026-05-06",
+        "stages": {
+          "awake_min": 22,
+          "core_min": 277,
+          "deep_min": 105,
+          "rem_min": 47
+        }
+      },
+      {
+        "bed_start": "2026-05-06T16:56:15.000Z",
+        "bed_end": "2026-05-06T23:31:15.000Z",
+        "date": "2026-05-07",
+        "stages": {
+          "awake_min": 12,
+          "core_min": 218,
+          "deep_min": 85,
+          "rem_min": 80
+        }
       }
     ]
   }
 };
-window.SLEEP_LAST_SYNC = "2026-05-07T00:03:49.958Z";
+window.SLEEP_LAST_SYNC = "2026-05-07T00:17:36.921Z";
