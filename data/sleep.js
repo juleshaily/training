@@ -202,4 +202,4 @@ window.SLEEP_DATA = {
     ]
   }
 };
-window.SLEEP_LAST_SYNC = "2026-05-06T14:27:37.026Z";
+window.SLEEP_LAST_SYNC = "2026-05-07T00:03:49.958Z";
