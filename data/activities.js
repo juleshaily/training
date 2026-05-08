@@ -484,7 +484,61 @@ window.ACTIVITIES_DATA = [
       1.388032,
       103.761402
     ]
+  },
+  {
+    "name": "Warm up for later Friendly session.",
+    "distance": 1103.6,
+    "moving_time": 608,
+    "elapsed_time": 636,
+    "total_elevation_gain": 0,
+    "sport_type": "Run",
+    "device_name": "Garmin Forerunner 165",
+    "start_date_local": "2026-05-07T19:38:12Z",
+    "average_speed": 1.815,
+    "max_speed": 4.56,
+    "calories": null,
+    "average_cadence": 83.8,
+    "has_heartrate": true,
+    "average_heartrate": 129.7,
+    "max_heartrate": 152,
+    "suffer_score": 1,
+    "polyline": "gdnGebixRHxAIh@ID?QFMSa@OSIg@KM_@y@Ie@Ma@B[CKIIOEM@MHGXBD\\Rt@z@Hn@Jb@Lt@JXV^B?E?@CfAi@h@_@fAi@j@a@HEPCAQF?TYXGDOFKPIj@c@lAi@\\?RQ\\Sf@k@dAg@n@_@TIb@]NANFR@NL`@x@TN",
+    "start_latlng": [
+      1.388369,
+      103.762431
+    ],
+    "end_latlng": [
+      1.38402,
+      103.76392
+    ]
+  },
+  {
+    "name": "Night Workout",
+    "distance": 3204,
+    "moving_time": 2771,
+    "elapsed_time": 4740,
+    "total_elevation_gain": 5,
+    "sport_type": "Soccer",
+    "device_name": "Garmin Forerunner 165",
+    "start_date_local": "2026-05-07T21:46:20Z",
+    "average_speed": 1.156,
+    "max_speed": 5.033,
+    "calories": null,
+    "average_cadence": 61.4,
+    "has_heartrate": true,
+    "average_heartrate": 169.6,
+    "max_heartrate": 202,
+    "suffer_score": 54,
+    "polyline": "as}FyqrxRFA\\PCE?EB?AMDFJBKBK??EDCRLBCGAF@DCABO@QFKAGBI?BAEI@EXEM?AJA?ECMDGDBD@GRIRCJ@@@G?AEJBFAAGWMKDCDWH?@@?@EJITFDFKECDH?d@GNEQLCCK?CCGE?CYASICEMBBAC@@AAC@JFEEBDC?@E@AG@DDA?EJHDF?TBBXGB?EB?@H?BAACGEB??JBAACE@@@FA?CWDLIHLKAKIK@LDFKDALF@BCD@D@?CGEAKFCSDDPCJJL@@CGCUFIABGKASHCADN@CJBPALBLGEDK?AKEAEDQMSK?EAA?JB?HCRHHJ?DOK@IDCF@FBDABHGJDBD?JGICK@MAM@GL?CJKC?AB?FFCHGK@?IDEPVQ?UCI@TQBAHDGDSAIIE@ADD@NGEAQBAADEBBIA?ADATFCB@ACCC??GIGFFLD?HC@@LMKO??GDIAGGOGAAHAE?@?ADBFEDFTHLJPDENEBCECB@GB?BDG?EEAB?ACABCBNK@GEACJEBHFG@FP?SGJCN@@LGIKEGBAADCBNBCAGUBBBAGCCCHHADECEF?NBAC@B]BC@CH?GE?B@HKCDBJF?HEBQEC?BEBCEABHCDEM@EBBJHB?BEB@EJBW@IOBE@@AKGGME@EC?CBCAC@CRBF?X@LDNCD@DFFAIFMWMI@HGEJDDCIDc@DICWA@JEFDd@@FDA?BAAAG@HBC?DFCEAABBIEY?KG?E?@Q@B??@C?@A?B?EA@@@AA@AADBAE?DA?CHABJJF@JHBHA?B@?E?EBAEL@?EA@HDC@H?BMJNJHQCBK?DMA?HNF?G[KQ?@AOBPJTFD?EM?@EAAEIALJRE?CBBDAE?ABAGEAODCJLBFM?DO?GM@??ELDGB?BFOLEH@FHNCAEq@LCP^JGAMSEBAFTMBEAAC@EFE@@@EBUGLAAIEC?DFFCB@CI?BDVF?GAC@CGAMIGCKBAD@DDAEAH?RLWEYMAEN@FAVFJP@DE@@AH?F@@FAEQGKIO?@@I?BBHCT?A?@F@KEOA?G?VPNA?A]BYC?BHADIH?DLAAG@D@?KEEGAIB@FD?BEB@ICEFD?KEAEGAFEOK?EE?EB",
+    "start_latlng": [
+      1.303692,
+      103.811016
+    ],
+    "end_latlng": [
+      1.303833,
+      103.811173
+    ]
   }
 ];
-window.ACTIVITIES_LAST_SYNC = "2026-05-07T00:17:36.774Z";
-window.LAST_SYNC = "2026-05-07T00:17:36.774Z";
+window.ACTIVITIES_LAST_SYNC = "2026-05-08T02:17:37.094Z";
+window.LAST_SYNC = "2026-05-08T02:17:37.094Z";
