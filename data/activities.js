@@ -513,7 +513,7 @@ window.ACTIVITIES_DATA = [
     ]
   },
   {
-    "name": "Night Workout",
+    "name": "Pre World Cup",
     "distance": 3204,
     "moving_time": 2771,
     "elapsed_time": 4740,
@@ -538,7 +538,34 @@ window.ACTIVITIES_DATA = [
       1.303833,
       103.811173
     ]
+  },
+  {
+    "name": "Morning Run 15 w Ikan Dyna",
+    "distance": 2871.7,
+    "moving_time": 1360,
+    "elapsed_time": 1982,
+    "total_elevation_gain": 5,
+    "sport_type": "Run",
+    "device_name": "Garmin Forerunner 165",
+    "start_date_local": "2026-05-09T09:26:41Z",
+    "average_speed": 2.112,
+    "max_speed": 6.52,
+    "calories": null,
+    "average_cadence": 86.2,
+    "has_heartrate": true,
+    "average_heartrate": 138.2,
+    "max_heartrate": 168,
+    "suffer_score": 5,
+    "polyline": "m`nGu|hxRC?SXMHc@@EAI]Q_@EYUs@KQGWCc@EEO[Sk@]m@?a@CICEUIOBQRAZd@^FPDB`@r@Rd@FNABFd@DTh@jAVdAXf@Rd@ZRvA\\v@LPHFDD\\AT_@dAGVAXB~@Vd@b@d@h@b@JBl@DjAVXB^E^Kd@URQJCJKNKHK?GiOkN?EGOVFEMBMBSASDGGMAUHOHKp@]LMDQUc@UUS]m@a@QWIEISQQMKMEQQSM?EIM@CCAFKAW@[Hq@Z[bAqADQ?a@MUsB_BKQW[Wg@Oe@Mg@o@YEC?GDEVCHEDW@c@Ho@Pc@BSVi@Lg@p@gAPi@Tc@Ta@RQBQl@eAZ_@FUFOJk@b@eA\\]^o@HOBSXm@l@_AHAAB@CA@b@PN@LATD~BnAp@^FHl@VPJTXF@j@|@",
+    "start_latlng": [
+      1.387758,
+      103.761552
+    ],
+    "end_latlng": [
+      1.384356,
+      103.770375
+    ]
   }
 ];
-window.ACTIVITIES_LAST_SYNC = "2026-05-08T02:17:37.094Z";
-window.LAST_SYNC = "2026-05-08T02:17:37.094Z";
+window.ACTIVITIES_LAST_SYNC = "2026-05-09T07:03:14.982Z";
+window.LAST_SYNC = "2026-05-09T07:03:14.982Z";
