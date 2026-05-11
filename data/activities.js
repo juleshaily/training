@@ -565,7 +565,34 @@ window.ACTIVITIES_DATA = [
       1.384356,
       103.770375
     ]
+  },
+  {
+    "name": "Run 16. No feeling after yesterday match.",
+    "distance": 4082.5,
+    "moving_time": 1873,
+    "elapsed_time": 1941,
+    "total_elevation_gain": 15,
+    "sport_type": "Run",
+    "device_name": "Garmin Forerunner 165",
+    "start_date_local": "2026-05-10T21:20:25Z",
+    "average_speed": 2.18,
+    "max_speed": 3.7,
+    "calories": null,
+    "average_cadence": 85.3,
+    "has_heartrate": true,
+    "average_heartrate": 147.1,
+    "max_heartrate": 163,
+    "suffer_score": 8,
+    "polyline": "iimGalixRKA[QUm@IMEOCUHi@L]OkAKWG[ASHMFC`BSn@Mb@KLGb@Gv@[^Gb@Ud@o@HSAEIECQD@DKPo@Vc@Ha@Ea@@]CSFwALqA?qACEI?e@@YFe@?q@Ia@Me@WKOYKMKMEOOYKOMq@q@QWWUKEU_@OS[WU[a@[y@c@OGWEQO_AYOKICK@IFg@nAc@h@IT_@n@]r@c@p@a@d@ADBFh@Xj@^b@LnAr@b@PrAz@hBx@ZVTJh@\\j@Vn@d@dAd@j@b@xAp@|@l@d@PTDHHFEJUCGEG]Mq@a@QEu@[KKSG]We@QUQ[OQOsAs@QGKKMCsAo@e@[KAIMSGYUs@WIKcAi@YIKKICq@a@YKu@a@GAMd@a@j@On@o@pA_@dAORIVKBIAc@QOAEf@Qf@Gb@Wj@KZCTAf@EVCFKDc@D@TVETJ^rA`@t@HFNTrBvAPV@f@GRu@fAYVSJAD@IBAAFBRCP?dACEB@?CKHCFBFzAnAJNT^v@h@x@rA?JWH_@XkAh@w@l@YPILBP",
+    "start_latlng": [
+      1.384056,
+      103.764015
+    ],
+    "end_latlng": [
+      1.388249,
+      103.761712
+    ]
   }
 ];
-window.ACTIVITIES_LAST_SYNC = "2026-05-09T07:03:14.982Z";
-window.LAST_SYNC = "2026-05-09T07:03:14.982Z";
+window.ACTIVITIES_LAST_SYNC = "2026-05-11T00:05:32.338Z";
+window.LAST_SYNC = "2026-05-11T00:05:32.338Z";
