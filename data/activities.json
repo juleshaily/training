@@ -592,5 +592,32 @@
       1.388249,
       103.761712
     ]
+  },
+  {
+    "name": "Run 17. Angry run.",
+    "distance": 2752.2,
+    "moving_time": 1189,
+    "elapsed_time": 1211,
+    "total_elevation_gain": 12,
+    "sport_type": "Run",
+    "device_name": "Garmin Forerunner 165",
+    "start_date_local": "2026-05-11T21:09:22Z",
+    "average_speed": 2.315,
+    "max_speed": 3.48,
+    "calories": null,
+    "average_cadence": 85.9,
+    "has_heartrate": true,
+    "average_heartrate": 151.1,
+    "max_heartrate": 166,
+    "suffer_score": 5,
+    "polyline": "_cnGy{hxREHBB?AEEI_@Oi@@ODG`@YZQHIPETQp@[b@YVIDKLOPMLCJGAIDKPQf@Ox@a@RQRGTDb@RJNLJNTd@f@NHZRfC`An@Lr@?d@LTB~AIh@I\\KROTIHCH@TLHZNXNh@Ln@BRG`@KVWTa@RsBZSBKAaAR]Da@LSBWHeAd@_@ZEHg@h@Uf@ATMj@KP[jAa@l@[Rq@R[DUA]Mk@[}@Wc@EMGKKSo@G]@[Hq@FMFWD_@DI@OFMn@_C@UJw@Dq@A{@_@}AGQMSAUOEQe@GGQa@UYe@a@w@g@[c@KIQ[Gi@[CODDJ@f@E@ACBBE@?DGH@Nf@Z\\^ZRl@r@VP\\^BFCLOPSJ[RGFIDYXYNe@^_@PJZDZVr@BRDD",
+    "start_latlng": [
+      1.388169,
+      103.761418
+    ],
+    "end_latlng": [
+      1.388129,
+      103.761396
+    ]
   }
 ]
