@@ -1388,6 +1388,35 @@ function switchView(name) {
 }
 
 // ============================================================
+// REFRESH (pull latest data from GitHub)
+// ============================================================
+
+function setupRefresh() {
+  const btn = document.getElementById('refresh-btn');
+  if (!btn) return;
+  btn.addEventListener('click', async () => {
+    btn.classList.add('spinning');
+    try {
+      // Clear cached data files so reload hits the network
+      if ('caches' in window) {
+        const keys = await caches.keys();
+        for (const k of keys) {
+          const c = await caches.open(k);
+          await c.delete('./data/activities.js');
+          await c.delete('./data/sleep.js');
+          await c.delete('data/activities.js');
+          await c.delete('data/sleep.js');
+        }
+      }
+    } catch (_) { /* ignore */ }
+    // Hard reload with cache-busting query
+    const url = new URL(window.location.href);
+    url.searchParams.set('_r', Date.now().toString());
+    window.location.replace(url.toString());
+  });
+}
+
+// ============================================================
 // MOOD INPUT (manual feeling)
 // ============================================================
 
@@ -1482,6 +1511,7 @@ function setupHeader() {
   setupHeader();
   await loadData();
   setupMood();
+  setupRefresh();
 
   // Tab listeners
   document.querySelectorAll('.tab').forEach(t => {

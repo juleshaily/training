@@ -244,6 +244,29 @@ input   { outline: none; }
 }
 .mood-btn:active { transform: scale(0.9); }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.refresh-btn {
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  background: var(--surface);
+  border: 1px solid var(--border-light);
+  color: var(--text-dim);
+  display: flex; align-items: center; justify-content: center;
+  transition: transform 0.15s, background 0.15s, color 0.2s;
+  box-shadow: var(--shadow-sm);
+}
+.refresh-btn svg { width: 18px; height: 18px; }
+.refresh-btn:hover { background: var(--surface-2); color: var(--peak); }
+.refresh-btn:active { transform: scale(0.9); }
+.refresh-btn.spinning svg { animation: refresh-spin 0.8s linear infinite; }
+.refresh-btn.spinning { color: var(--peak); pointer-events: none; }
+@keyframes refresh-spin { to { transform: rotate(360deg); } }
+
 /* ============================================================
    VIEWS
    ============================================================ */

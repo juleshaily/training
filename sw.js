@@ -1,4 +1,4 @@
-const CACHE = 'training-v16';
+const CACHE = 'training-v17';
 const STATIC = [
   './',
   './index.html',
