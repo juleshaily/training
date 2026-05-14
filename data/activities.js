@@ -31,12 +31,12 @@ window.ACTIVITIES_DATA = [
     "distance": 2479.8,
     "moving_time": 1053,
     "elapsed_time": 1169,
-    "total_elevation_gain": 125,
+    "total_elevation_gain": 10.6,
     "sport_type": "Run",
     "device_name": "Strava App",
     "start_date_local": "2026-04-08T20:00:11Z",
     "average_speed": 2.355,
-    "max_speed": 8.09,
+    "max_speed": 8.1,
     "calories": null,
     "average_cadence": null,
     "has_heartrate": false,
@@ -619,7 +619,34 @@ window.ACTIVITIES_DATA = [
       1.388129,
       103.761396
     ]
+  },
+  {
+    "name": "Morning Run",
+    "distance": 2406.7,
+    "moving_time": 1129,
+    "elapsed_time": 1152,
+    "total_elevation_gain": 9,
+    "sport_type": "Run",
+    "device_name": "Garmin Forerunner 165",
+    "start_date_local": "2026-05-14T09:05:26Z",
+    "average_speed": 2.132,
+    "max_speed": 4,
+    "calories": null,
+    "average_cadence": 84.6,
+    "has_heartrate": true,
+    "average_heartrate": 148.3,
+    "max_heartrate": 163,
+    "suffer_score": 5,
+    "polyline": "w_nGw}hxR?DEP_@l@OJMCWBOIEEKa@Io@HM`@Uh@c@TMv@]p@c@RCTPDHf@pA?HH^HdAEt@G`@Mf@Y`@GjAGVSb@Ot@?^Bh@Nd@JPXXj@b@LD|@Hf@P^Bh@Cl@Ot@[d@e@JMDKBi@`@cBJOXKBGCQFMFIZQJUj@[`AUt@a@LAPEj@Ch@MJ?fBe@@GGMAMFKLCDENg@?OAUYa@M[Ec@GMOMQ@[Fc@RqATOGKAO@SDo@Oe@Hi@Ay@IWGiBgAQCKEMIe@i@CSKUo@[O?OPc@FUHOJq@VQf@KDKGD?CED@ABYRILELMBc@VEFcAd@u@b@[TMVJ`@@BF^Vn@",
+    "start_latlng": [
+      1.387641,
+      103.761725
+    ],
+    "end_latlng": [
+      1.388022,
+      103.761213
+    ]
   }
 ];
-window.ACTIVITIES_LAST_SYNC = "2026-05-13T00:36:08.954Z";
-window.LAST_SYNC = "2026-05-13T00:36:08.954Z";
+window.ACTIVITIES_LAST_SYNC = "2026-05-14T02:01:12.267Z";
+window.LAST_SYNC = "2026-05-14T02:01:12.267Z";

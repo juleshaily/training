@@ -297,8 +297,19 @@ window.SLEEP_DATA = {
           "deep_min": 56,
           "rem_min": 93
         }
+      },
+      {
+        "bed_start": "2026-05-13T16:41:11.000Z",
+        "bed_end": "2026-05-13T23:30:50.000Z",
+        "date": "2026-05-14",
+        "stages": {
+          "awake_min": 12,
+          "core_min": 265,
+          "deep_min": 64,
+          "rem_min": 69
+        }
       }
     ]
   }
 };
-window.SLEEP_LAST_SYNC = "2026-05-13T00:36:09.472Z";
+window.SLEEP_LAST_SYNC = "2026-05-14T02:01:12.468Z";
