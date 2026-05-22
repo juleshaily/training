@@ -2,83 +2,6 @@ window.SLEEP_DATA = {
   "metrics": {
     "sleep": [
       {
-        "bed_start": "2026-04-15T18:48:37.000Z",
-        "bed_end": "2026-04-15T23:31:37.000Z",
-        "date": "2026-04-16",
-        "stages": {
-          "awake_min": 11,
-          "core_min": 147,
-          "deep_min": 53,
-          "rem_min": 72
-        }
-      },
-      {
-        "bed_start": "2026-04-16T17:53:51.000Z",
-        "bed_end": "2026-04-16T23:24:51.000Z",
-        "date": "2026-04-17",
-        "stages": {
-          "awake_min": 34,
-          "core_min": 234,
-          "deep_min": 63,
-          "rem_min": 0
-        }
-      },
-      {
-        "bed_start": "2026-04-18T19:21:13.000Z",
-        "bed_end": "2026-04-18T21:45:13.000Z",
-        "date": "2026-04-19",
-        "stages": {
-          "awake_min": 18,
-          "core_min": 71,
-          "deep_min": 55,
-          "rem_min": 0
-        }
-      },
-      {
-        "bed_start": "2026-04-19T04:28:07.000Z",
-        "bed_end": "2026-04-19T05:53:07.000Z",
-        "date": "2026-04-19",
-        "stages": {
-          "awake_min": 0,
-          "core_min": 85,
-          "deep_min": 0,
-          "rem_min": 0
-        }
-      },
-      {
-        "bed_start": "2026-04-19T14:46:07.000Z",
-        "bed_end": "2026-04-19T23:30:07.000Z",
-        "date": "2026-04-20",
-        "stages": {
-          "awake_min": 29,
-          "core_min": 277,
-          "deep_min": 105,
-          "rem_min": 113
-        }
-      },
-      {
-        "bed_start": "2026-04-20T16:14:05.000Z",
-        "bed_end": "2026-04-20T23:37:05.000Z",
-        "date": "2026-04-21",
-        "stages": {
-          "awake_min": 18,
-          "core_min": 207,
-          "deep_min": 115,
-          "rem_min": 103
-        }
-      },
-      {
-        "bed_start": "2026-04-21T18:44:40.000Z",
-        "bed_end": "2026-04-21T23:30:40.000Z",
-        "date": "2026-04-22",
-        "stages": {
-          "awake_min": 4,
-          "core_min": 114,
-          "deep_min": 112,
-          "rem_min": 56
-        }
-      },
-      {
         "bed_start": "2026-04-23T15:37:05.000Z",
         "bed_end": "2026-04-23T23:40:05.000Z",
         "date": "2026-04-24",
@@ -308,8 +231,74 @@ window.SLEEP_DATA = {
           "deep_min": 64,
           "rem_min": 69
         }
+      },
+      {
+        "bed_start": "2026-05-14T19:17:53.000Z",
+        "bed_end": "2026-05-14T23:42:53.000Z",
+        "date": "2026-05-15",
+        "stages": {
+          "awake_min": 24,
+          "core_min": 155,
+          "deep_min": 86,
+          "rem_min": 0
+        }
+      },
+      {
+        "bed_start": "2026-05-15T16:44:30.000Z",
+        "bed_end": "2026-05-15T23:13:30.000Z",
+        "date": "2026-05-16",
+        "stages": {
+          "awake_min": 1,
+          "core_min": 243,
+          "deep_min": 88,
+          "rem_min": 57
+        }
+      },
+      {
+        "bed_start": "2026-05-16T17:28:12.000Z",
+        "bed_end": "2026-05-17T00:41:39.000Z",
+        "date": "2026-05-17",
+        "stages": {
+          "awake_min": 8,
+          "core_min": 206,
+          "deep_min": 103,
+          "rem_min": 116
+        }
+      },
+      {
+        "bed_start": "2026-05-17T02:06:39.000Z",
+        "bed_end": "2026-05-17T03:08:39.000Z",
+        "date": "2026-05-17",
+        "stages": {
+          "awake_min": 0,
+          "core_min": 62,
+          "deep_min": 0,
+          "rem_min": 0
+        }
+      },
+      {
+        "bed_start": "2026-05-18T14:42:09.000Z",
+        "bed_end": "2026-05-18T23:23:09.000Z",
+        "date": "2026-05-19",
+        "stages": {
+          "awake_min": 11,
+          "core_min": 325,
+          "deep_min": 71,
+          "rem_min": 114
+        }
+      },
+      {
+        "bed_start": "2026-05-21T17:48:13.000Z",
+        "bed_end": "2026-05-21T23:10:07.000Z",
+        "date": "2026-05-22",
+        "stages": {
+          "awake_min": 2,
+          "core_min": 204,
+          "deep_min": 91,
+          "rem_min": 25
+        }
       }
     ]
   }
 };
-window.SLEEP_LAST_SYNC = "2026-05-14T02:01:12.468Z";
+window.SLEEP_LAST_SYNC = "2026-05-22T03:12:17.465Z";

@@ -621,7 +621,7 @@ window.ACTIVITIES_DATA = [
     ]
   },
   {
-    "name": "Morning Run",
+    "name": "Easy Morning Run 18",
     "distance": 2406.7,
     "moving_time": 1129,
     "elapsed_time": 1152,
@@ -646,7 +646,169 @@ window.ACTIVITIES_DATA = [
       1.388022,
       103.761213
     ]
+  },
+  {
+    "name": "Bad night. 10 shots zero goals. Pecah.",
+    "distance": 4146.9,
+    "moving_time": 3735,
+    "elapsed_time": 6780,
+    "total_elevation_gain": 4,
+    "sport_type": "Soccer",
+    "device_name": "Garmin Forerunner 165",
+    "start_date_local": "2026-05-14T21:16:47Z",
+    "average_speed": 1.11,
+    "max_speed": 4.9,
+    "calories": null,
+    "average_cadence": 58.7,
+    "has_heartrate": true,
+    "average_heartrate": 163.5,
+    "max_heartrate": 196,
+    "suffer_score": 58,
+    "polyline": "ms}FsrrxRn@Bh@JQ@JBE@O?BDCAD@CCBBG?ADACC@ECHC?DMCAB?AFE@DIBEGHBBAS@?DCGBGCBDAE??D@@OEBEFHBGAH@@?MM@BG?BHH?F?GA@?DCK@BFG?HMHBAKITCLB?EA@DLECBC@DKAAC?KD?OHBAGABHDOGF@DNB@CCK@HM@IE?ELCABBBDA@DMD@ABBFE?HDDCMQBJE@CGADAIDPCKDC?XICDCEq@IJ@AFECA@RCJ??LBIRNGEIHG?JEJBKK?IHJ?DGMQ@P@PRBAGKKFH@HEE?CJBDK?OKBMEE?FNRUKL?JKN@IFM@HKJBm@JB@RKDFRDFA@EOASKYASWMFDKADB@AE@BAD@BEK@B?BACAB@BNKGRBJ@]I@CBACB?C@B@ECD?HIR\\TFE@LADBEGXFLFUGCGADK@GDB@GUFHN@KBFG?LF@OGO?ACBICJFQCHFFDEENFF`@BECDCDWADMDM?AABEQHKCLCBBI@EMEJCMLBBBCLG?@Cv@FC?[AAGEBDER?VE_@FALDFD@J]WLQEKFDAFQMECEE@H@@DCDJH@?FKEFJ?BLIGKCCELC?ED?JDLNQHJC@IIAALMI@G@BGCGDT?HECKIGONBFc@@OIRCDBHC?DCFAEGGK?BHA@FBC@HDHCTDFECCM@OMLNSE?KDB?DHCOB@UMEMMKHDADF?GGBBED@ADESBCCLFHEMC@FDDAM?ENNSCACBL?BFH?^ND@?FF?E@?BIACBBFCBG@B?CABMECKDEITE@JCJE?GEBILEEAJECBNH[F@YABFB\\J@JD?IME?IL@CEAAIG@?GBHHCJFHPKMUIE@BFRCRBDBBJMSYGBDD@FC?FOA?IBCC@?CBAJH?FKHa@CXIBESIQ?GD\\?JHEADBFGHHL?KEIRF@CMEA?ESECDB??IGBGU@BSM?DG@@CECBAEP@ID?EA@A@BEAF?ABHE^T@B?HDGFD?AH@EAFJDACK@DQAPCMCCHBL@A?EEC?JBCAKEC?JDINDAIGD@CC?BBBARJN?QCMBCEIFJSKH?FEBDIF@DD@AKG?HBACCEEBCRPI?KMAJI@V@EBCC?IEGIDAIE?BDHBJE@FDDR@JABEWCDAACKE?JHD?KCABJC@QI?DKFAENMl@GC@EVEBYAIIK@?BFCDIPCDVOQINGKMHd@FAEIADAECKCYFACH?QOAMC@D?LVZCEA?FDACACDVBPIJ?FC?BCFK?MIDJMGYASI",
+    "start_latlng": [
+      1.30375,
+      103.811143
+    ],
+    "end_latlng": [
+      1.303682,
+      103.811061
+    ]
+  },
+  {
+    "name": "Evening Run 19",
+    "distance": 5090.1,
+    "moving_time": 2673,
+    "elapsed_time": 2702,
+    "total_elevation_gain": 16,
+    "sport_type": "Run",
+    "device_name": "Garmin Forerunner 165",
+    "start_date_local": "2026-05-17T20:01:51Z",
+    "average_speed": 1.904,
+    "max_speed": 3.24,
+    "calories": null,
+    "average_cadence": 85.4,
+    "has_heartrate": true,
+    "average_heartrate": 150.2,
+    "max_heartrate": 172,
+    "suffer_score": 12,
+    "polyline": "ianGk|hxRUBGHG@Q]Wo@?GFIz@k@`Ae@t@a@VSLEAK@CB?ZQPAR_@d@k@r@[RCVWPANDFALW?C@?A@g@u@QQYk@[c@OQMQc@a@i@a@GI_Ag@_@YWKUGKQq@e@m@Um@s@eAkCOM]AEAEGBQFGJCJU@k@Dg@H_@\\s@PSLk@Rg@PWRc@VYP]HYZUb@WZa@FQX_@XHb@TTRb@JTLdAl@VV`@PVNPBt@^JBFFVPf@RTP^LLNr@XzAx@LBFFzAt@d@Z`@Rl@b@h@NXVD@HEHOEGi@Wm@]}@c@]KcAi@_@SOOMGYISMSQq@_@MKKAo@Yi@[e@ScAo@{@[eAs@YIuC}AAEHSh@cAn@_AZw@R[JWT]Tk@HGZ?h@PXRt@^\\ZLFLJ`@Rl@b@JLTLFH`@r@j@t@b@f@XRp@Rd@VTTj@TXFx@BJB`@Bl@ALLXD@DA\\Hn@@j@Cf@BRINGlCSf@W\\S\\[~@m@p@yDjA]FM?[D]Je@FOFCVJ|@Pv@?Na@fAKNKFIROPIFe@R}@l@w@XUZ_@RENKJOAKBo@\\QAIBON]RSDQHIVWHYX?FHNBLJLZt@RfA?p@K^I`@Ix@GRB?Ba@Ji@@]Hc@@YEg@@QGQ]k@Uu@GEMCKD]Tu@b@iAj@e@`@CLHLFXFFDZBG",
+    "start_latlng": [
+      1.387895,
+      103.761501
+    ],
+    "end_latlng": [
+      1.38808,
+      103.761434
+    ]
+  },
+  {
+    "name": "After Margrib Run #20",
+    "distance": 5328.6,
+    "moving_time": 2773,
+    "elapsed_time": 2799,
+    "total_elevation_gain": 19,
+    "sport_type": "Run",
+    "device_name": "Garmin Forerunner 165",
+    "start_date_local": "2026-05-18T20:07:22Z",
+    "average_speed": 1.922,
+    "max_speed": 3.14,
+    "calories": null,
+    "average_cadence": 84.8,
+    "has_heartrate": true,
+    "average_heartrate": 142.8,
+    "max_heartrate": 165,
+    "suffer_score": 11,
+    "polyline": "ibnGe|hxRAJB@q@gA?MJMrAy@|@e@n@g@NAJUHKRKREL[p@e@VUt@a@RAR@LKBKH?@DCB?CGAQSQ[c@WOYKa@?GKOCQV[?Ic@Ys@_@}@y@s@g@EGWQGG[Qm@g@i@Yy@}@]cAKi@Ce@?]Fc@Ry@b@eAXg@FM@W~@uBRs@l@mANc@t@}@dAcB`@aAXg@Ze@DONWLKR?dChAf@Zn@V^ZRHh@d@~@zAXRNRh@^VFRHn@d@LRNJZHz@HtA?R@DDDJ?bBH~@CfA?t@E`@GXGPe@t@Sb@IBe@Y_@MKGIOo@Qg@[_@MYUgBu@w@o@g@SYSuCwAg@c@WGk@W_B_Ag@SWOo@]YSIHSj@Mv@GLo@n@M^IN?DCHQ^MNCNBFHHJF`@FNDJFVDn@Vv@d@VDd@NL@TPtAL`APd@Fp@Rb@VTRd@Tf@~@V^F`@Dh@BHJLBHEf@DXBn@J\\Bh@CNe@hAe@h@s@\\i@^_A\\MJILg@\\OT]?]Ta@Jc@\\o@RGDI^@PNTBNDFLz@HNBZA\\Dd@E\\Op@Mr@Sr@C^Qv@Y~@?PMl@LnALXHJd@Dr@Pt@ZbAFPAr@ODD@PGLSH_@DoACQEUKm@GQGm@]_@[MQIUG[ISAUFq@Nm@Tq@BUGIIEoBi@MGC_@OSWSQa@?IDC",
+    "start_latlng": [
+      1.38805,
+      103.761473
+    ],
+    "end_latlng": [
+      1.388081,
+      103.761353
+    ]
+  },
+  {
+    "name": "21st Run",
+    "distance": 2705.3,
+    "moving_time": 1266,
+    "elapsed_time": 1272,
+    "total_elevation_gain": 14,
+    "sport_type": "Run",
+    "device_name": "Garmin Forerunner 165",
+    "start_date_local": "2026-05-20T08:48:38Z",
+    "average_speed": 2.137,
+    "max_speed": 3.52,
+    "calories": null,
+    "average_cadence": 86.8,
+    "has_heartrate": true,
+    "average_heartrate": 149,
+    "max_heartrate": 168,
+    "suffer_score": 7,
+    "polyline": "ibnGy{hxREHC@CGCUIKSe@CQ@G?JIHMFM?ECYu@SUQo@E[Cg@_@w@YOIKAWDMJIVETDFFFV?X@J\\p@PTJ`@Fd@L^JPJE@CKHAJLTDTHLJ^R^Lj@LTHHPD^N|@Nd@NJ@HEDEVkA@SDO@YAy@OaAs@}AAMHMNK^KFYZ]j@SVCPGRSJEF?PDl@VVX\\TTX\\Pz@h@dBl@RDx@@hALdBC\\IdAi@LCR@JDHJDVNZRp@Nx@A\\Sf@ST]Te@JYB]HUBIBEFOBa@@UAo@FgATUBOLODGHKD[ZUNk@t@Od@Ij@_@|AKZIJe@^YFy@Hi@CYKYUUImAUa@]Yi@Em@@[TkAXw@F]CIQGECAGJSFa@FMNc@?GACKGEBIA]KKI",
+    "start_latlng": [
+      1.388054,
+      103.761418
+    ],
+    "end_latlng": [
+      1.387196,
+      103.761422
+    ]
+  },
+  {
+    "name": "Warming up for Final",
+    "distance": 1004.4,
+    "moving_time": 562,
+    "elapsed_time": 565,
+    "total_elevation_gain": 0,
+    "sport_type": "Run",
+    "device_name": "Garmin Forerunner 165",
+    "start_date_local": "2026-05-21T20:00:26Z",
+    "average_speed": 1.787,
+    "max_speed": 2.56,
+    "calories": null,
+    "average_cadence": 83.5,
+    "has_heartrate": true,
+    "average_heartrate": 128,
+    "max_heartrate": 143,
+    "suffer_score": 1,
+    "polyline": "qbnGi|hxRA@IQI[IKWAUFECCESi@Q]]gACSIWUo@i@u@BOLMHAN?ZLDL@`@PXFXb@|@N|@LNH@p@_@b@[^_@t@c@LO`@GZS|@_@d@[DCl@DVCh@YN?TYb@URYt@a@JMZS`Ac@VQJAb@Db@p@",
+    "start_latlng": [
+      1.388094,
+      103.761491
+    ],
+    "end_latlng": [
+      1.384213,
+      103.764135
+    ]
+  },
+  {
+    "name": "Night Workout",
+    "distance": 4722.5,
+    "moving_time": 4119,
+    "elapsed_time": 7062,
+    "total_elevation_gain": 8,
+    "sport_type": "Soccer",
+    "device_name": "Garmin Forerunner 165",
+    "start_date_local": "2026-05-21T21:16:25Z",
+    "average_speed": 1.147,
+    "max_speed": 5.65,
+    "calories": null,
+    "average_cadence": 63.2,
+    "has_heartrate": true,
+    "average_heartrate": 159.6,
+    "max_heartrate": 203,
+    "suffer_score": 61,
+    "polyline": "sr}FkrrxRCHIBH?NMPD?DJAK??EDPGSGC?TCBC?HAUGBI\\DC@@CG?EFEFBBREKACBB?ESOG@FLBXTKAGWGAEDCID^LJT?@EGIOAEIIBb@@FDEBFA?COECOUBBFGBZNDACMEC\\Dw@GQ?CDKUB?EOI@ADB@E@FCECC@J@GCAD?CB@ECD@EEADB?AGC@TBb@TCDH@DDa@MFFh@FWBKD@B?Gj@EDC?EI@FDDAMFGGEDHCAGOCUH@D?GG?LBHLQ[KABHNALJICB?CIG?BDA?QA?GNF@EPHAEF@C?@D[C?GE@HIDLB@YKOBFAGCPFb@B@LHGFBEI?HR\\EIYKAOD?K@OEIDBGBHRLLKAS?HIJBBDKMI@HRFk@ETFd@UEF]HSGKKE@XJ?F?EBAh@V@QGEIHIK?HIO@HG@g@IFBPKACBFJBAA?FFRAGDECFEC@IDFH?TE@GID@DEDKCCDQESIHFKACGLAAHC?FLBMAUKBRFBDAGF@ADK?AE@BCA?GH?CDOCBA?LIEC@@BGOASQBFBEEDA?DDAAD@KIA@JGAFA?DCAB@?EEBF@CGCF@DAE@BADAEABDABIHCn@\\DNSA@DDA[QGMDC@DH@@RGK?G?LB?f@EN@KHYGW@RJj@EMHSB[MJDHCAHRGALCGFOEKCABh@e@c@ACNFIQOF\\TDKCAKLGCFEACG@DJJAABBBBGXLLIEECISAm@DV?FACEj@HC@AFIIKDVN@CEC?FDGMCBCMAADFCIIJEEF@FTFFCGGU@ADFJCGJMBCDDUC@N@IXHK?MG@EH?CBFBCEIBCE?FHCACCBBBCEEA@BCB@ODHBAHHBEGQFFGBOGFJCD]O]?LDXIHDFLFM@PB@?ENN]KDDFCCC?KFXF?SKD?@DAQCDI@?RCEE?DIFFCEXD]EQIX@FDNI@DCBGIE@?BGEPJQ?QKWCEB?DNCBKUKCGE@BGMBF@ABACB?CDBACBAEADFAGABIF@?B^TLEHPGM@JDCALDDGMGA?BDCECGFF@AWLDLA@HCFSJKEFAUOAEEF?KDAHJHMEDDL@OEDMACLFA?G?FOBB?DKTB?DC?SCZ@XMN@q@CC@?JK?GJd@KJBCFDBNADGm@EO@@FRQCFFJq@QHCGB@CX@JERH]@QRFEC?AGN@BGDBEII?KLx@@_@OGHB@I?B?CQl@Fy@L?BVQNAGAIFMCCDHB^AHBADg@CSKX@UKE?GJBYEEEHC@BEE@BDCED@CE@FCGDB",
+    "start_latlng": [
+      1.303624,
+      103.811102
+    ],
+    "end_latlng": [
+      1.303811,
+      103.811141
+    ]
   }
 ];
-window.ACTIVITIES_LAST_SYNC = "2026-05-14T02:01:12.267Z";
-window.LAST_SYNC = "2026-05-14T02:01:12.267Z";
+window.ACTIVITIES_LAST_SYNC = "2026-05-22T03:12:16.558Z";
+window.LAST_SYNC = "2026-05-22T03:12:16.558Z";
